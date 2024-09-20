@@ -70,7 +70,7 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+        <div className={`w-full h-full absolute ${id === 1 && "opacity-50"}`}>
           {img && (
             <img
               src={img}
@@ -84,7 +84,7 @@ export const BentoGridItem = ({
             id === 5 && "w-full opacity-80"
           }`}
         >
-          {spareImg && (
+          {spareImg && id !== 1 && (
             <img
               src={spareImg}
               alt={spareImg}
@@ -92,12 +92,23 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+        <div className={`absolute top-0 lef-0 w-full h-full`}>
+          {spareImg && id === 1 && (
+            <img
+              src={spareImg}
+              alt={spareImg}
+              className="object-cover object-contain"
+            />
+          )}
+        </div>
+
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
         )}
         <div
           className={cn(
             titleClassName,
+            id === 1 && "h-full",
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
