@@ -104,3 +104,41 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
+
+export const technologies = [
+  {
+    id: 1,
+    name: "Next.js",
+    img: "/next.svg",
+  },
+  {
+    id: 2,
+    name: "react",
+    img: "/re.svg",
+  },
+  {
+    id: 3,
+    name: "typescript.",
+    img: "/ts.svg",
+  },
+  {
+    id: 4,
+    name: "javascript",
+    img: "/js.svg",
+  },
+  {
+    id: 5,
+    name: "angular",
+    img: "/angular.svg",
+  },
+  {
+    id: 6,
+    name: "tailwindcss",
+    img: "/tail.svg",
+  },
+  {
+    id: 6,
+    name: "docker",
+    img: "/dock.svg",
+  },
+];

@@ -1,6 +1,7 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
+import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
+        <TechStack />
       </div>
     </main>
   );
