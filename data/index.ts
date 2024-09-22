@@ -142,3 +142,27 @@ export const technologies = [
     img: "/dock.svg",
   },
 ];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Frontend Engineer Intern - Cape Ann Enterprises",
+    desc: "My focus was to enhance the application using Angular, Strapi, and SQLite. We adopted Agile methodologies for effective project management.",
+    date: "Jun 2022 - Aug 2022",
+    thumbnail: "/cape-ann-logo.png",
+  },
+  {
+    id: 2,
+    title: "Software Engineer - Pickleball.com",
+    desc: " I had the opportunity to develop responsive and user-friendly web interfaces, specializing in React, TypeScript, Next.js, and Tailwind CSS.",
+    date: "Sep 2022 - May 2024",
+    thumbnail: "/pickleball-icon.svg",
+  },
+  {
+    id: 3,
+    title: "Software Engineer - Techman Solutions",
+    desc: "Specializing in developing and customizing Odoo ERP solutions, I focus on tailored deployments, client training, and ensuring seamless integration to optimize business processes.",
+    date: "May 2024 - Present",
+    thumbnail: "/techman-solutions-icon.png",
+  },
+];
