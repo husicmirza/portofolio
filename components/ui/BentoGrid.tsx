@@ -94,15 +94,20 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        <div className={`absolute top-0 lef-0 w-full h-full`}>
-          {spareImg && id === 1 && (
+        {spareImg && id === 1 && (
+          <div className={`absolute top-0 lef-0 w-full h-full`}>
             <img
               src={spareImg}
               alt={spareImg}
-              className="object-cover object-contain"
+              style={{
+                objectFit: "contain",
+                width: "90%",
+                height: "auto",
+                margin: "0 auto",
+              }}
             />
-          )}
-        </div>
+          </div>
+        )}
 
         {id === 6 && (
           <BackgroundGradientAnimation></BackgroundGradientAnimation>

@@ -15,7 +15,7 @@ export const gridItems = [
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/grid.svg",
-    spareImg: "/me1.svg",
+    spareImg: "/me.png",
   },
   {
     id: 2,
