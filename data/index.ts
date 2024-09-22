@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Work Experience", link: "#work-experience" },
+  { name: "Work Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -164,5 +164,23 @@ export const workExperience = [
     desc: "Specializing in developing and customizing Odoo ERP solutions, I focus on tailored deployments, client training, and ensuring seamless integration to optimize business processes.",
     date: "May 2024 - Present",
     thumbnail: "/techman-solutions-icon.png",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/husicmirza",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/mirzahusic/",
+  },
+  {
+    id: 3,
+    img: "/insta.svg",
+    link: "https://www.instagram.com/ciizzaa/",
   },
 ];
