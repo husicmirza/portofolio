@@ -81,7 +81,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Rapcult - Resposnsive landing page",
+    title: "Rapcult - Home page",
     des: "Hero section, benefits overview, timeline highlights, pricing details, testimonials, and CTA with FAQ.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
