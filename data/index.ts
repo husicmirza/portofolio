@@ -77,7 +77,7 @@ export const projects = [
     des: "Hero section, camp showcase, travel guide, feature-rich section, mobile app CTA, and extensive footer with links.",
     img: "/p1.png",
     iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
-    link: "https://github.com/husicmirza/travel-app",
+    link: "https://husicmirza.github.io/travel-app/",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projects = [
     des: "Hero section, benefits overview, timeline highlights, pricing details, testimonials, and CTA with FAQ.",
     img: "/p2.png",
     iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
-    link: "https://github.com/husicmirza/repcult",
+    link: "https://husicmirza.github.io/repcult/",
   },
 ];
 
