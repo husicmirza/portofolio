@@ -8,6 +8,8 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import dynamic from "next/dynamic";
+import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
@@ -52,7 +54,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Next.js", "Typescript"];
-  const rightLists = ["Angular", "JavaScript", "GraphQL"];
+  const rightLists = ["Angular", "JavaScript", "Tailwind"];
 
   const [copied, setCopied] = useState(false);
   const handleCopy = () => {
@@ -152,6 +154,18 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+          {id === 5 && (
+            <div className="mt-5">
+              <Link href={"https://github.com/husicmirza"} target="_blank">
+                <MagicButton
+                  title="husicmirza"
+                  icon={<FaGithub />}
+                  position="left"
+                  otherClasses="!bg-[#161a31]"
+                />
+              </Link>
             </div>
           )}
           {id === 6 && (
