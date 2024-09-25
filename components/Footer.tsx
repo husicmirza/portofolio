@@ -2,6 +2,7 @@ import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { IoIosMail } from "react-icons/io";
 import { socialMedia } from "@/data";
+import { TbFileCv } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -32,7 +33,7 @@ const Footer = () => {
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <a href={profile.link}>
+              <a href={profile.link} target="_blank">
                 <img
                   src={profile.img}
                   alt={profile.link}
@@ -42,6 +43,14 @@ const Footer = () => {
               </a>
             </div>
           ))}
+          <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+            <a
+              href="https://drive.google.com/file/d/1b1oZK0T5rs0WR7JFw53XAMf2GG7pwKv1/view?usp=sharing"
+              target="_blank"
+            >
+              <TbFileCv size={24} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
