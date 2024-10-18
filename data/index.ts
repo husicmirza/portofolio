@@ -81,11 +81,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Rapcult - Home page",
-    des: "Hero section, benefits overview, timeline highlights, pricing details, testimonials, and CTA with FAQ.",
+    title: "Appointment Management System",
+    des: "The Appointment Management System allows users to book doctor appointments and provides an admin dashboard to manage and view all scheduled appointments.",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg"],
-    link: "https://husicmirza.github.io/repcult/",
+    iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/app.svg"],
+    link: "https://appointment-management-system-blue.vercel.app/",
   },
 ];
 
