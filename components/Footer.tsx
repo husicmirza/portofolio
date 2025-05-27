@@ -45,7 +45,7 @@ const Footer = () => {
           ))}
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
             <a
-              href="https://drive.google.com/file/d/1b1oZK0T5rs0WR7JFw53XAMf2GG7pwKv1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_wABZBD-p5uhP3e-M3SvVgwNe_JbqTnb/view?usp=sharing"
               target="_blank"
             >
               <TbFileCv size={24} />
