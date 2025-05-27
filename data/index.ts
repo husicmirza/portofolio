@@ -87,6 +87,14 @@ export const projects = [
     iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/app.svg"],
     link: "https://appointment-management-system-blue.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Balkan Connect",
+    des: "Balkan Connect is a networking platform that connects Balkan expats across the Middle East, helping them discover professionals, promote businesses, share events, and access community tips and resources.",
+    img: "/p3.png",
+    iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/app.svg"],
+    link: "https://gcc-networking.vercel.app/",
+  },
 ];
 
 export const technologies = [
@@ -145,7 +153,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Software Engineer - Techman Solutions",
-    desc: "Specializing in developing and customizing Odoo ERP solutions, I focus on tailored deployments, client training, and ensuring seamless integration to optimize business processes.",
+    desc: "Experienced in setting up and customizing Odoo ERP systems, including cloud deployment and module configuration. Skilled in analyzing business needs to deliver tailored Odoo solutions, user training, and support. Currently leading the development of an internal web app using React, Next.js, and Appwrite.",
     date: "May 2024 - Present",
     thumbnail: "/techman-solutions-icon.png",
   },
