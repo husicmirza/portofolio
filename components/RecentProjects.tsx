@@ -2,6 +2,12 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const RecentProjects = () => {
   return (
@@ -33,9 +39,19 @@ const RecentProjects = () => {
               <div className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {project.title}
               </div>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
-                {project.des}
-              </p>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-left">
+                      {project.des}
+                    </p>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>{project.des}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {project.iconLists.map((icon, index) => (
